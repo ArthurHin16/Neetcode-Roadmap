@@ -6,7 +6,7 @@ Your solution must use only constant extra space.
 """
 
 def two_sum(nums, target):
-    l, r = 0, len(nums) - 2
+    l, r = 0, len(nums) - 1
     while l <= r:
         target_sum = nums[l] + nums[r]
         if (target_sum) == target:
